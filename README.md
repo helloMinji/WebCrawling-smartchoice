@@ -108,3 +108,17 @@ else:
     
     temp = pd.DataFrame([skt,kt,lg,total], columns=labels)
 ```
+
+
+
+<br>
+<br>
+
+                                                 
+
+---------------------------------------------------------------
+
+### > Reference
+
+option value가 있는 웹페이지 크롤링 하기                                       
+https://medium.com/@nsh235482/python-selenium으로-웹사이트-크롤링하기-2-웹-사이트-제어해보기-1ffc5e05179d
