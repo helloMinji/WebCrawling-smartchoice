@@ -68,7 +68,7 @@ main.py
 > 데이터가 없는 지역이 있다.
 > 이 경우 datatable.py 에서 크롤링한 데이터에서 '전체'라는 단어를 삭제하게끔 해놓았는데 이 부분에서 오류가 발생한다.
 >  
-> :arrow_right: 코드를 다음과 같이 수정하였다.
+> :arrow_right: datatable.py 코드를 다음과 같이 수정하였다.
 ```python
  existData = soup.find('td', class_="nodata")
     if existData!=None :
@@ -89,7 +89,7 @@ main.py
 > 데이터가 전체 데이터만 있는 지역이 있다.
 > 이 경우 skt로 데이터가 들어가고 나머지 부분은 nan 처리가 된다.
 >  
-> :arrow_right: 코드를 다음과 같이 수정하였다.
+> :arrow_right: datatable.py 코드를 다음과 같이 수정하였다.
 ```python
 if len(body)<32 :
     total = [cityvalue, guvalue, dongvalue,'전체'] + body[5:]
