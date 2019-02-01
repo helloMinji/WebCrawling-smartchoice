@@ -49,9 +49,7 @@ main.py
 
 ### > version GUI
 
-#### Setup
-
-PyQt5를 이용하여 GUI를 구현하였다.<br>
+PyQt5를 이용하여 GUI를 구현하였다. 이를 위해서 main 의 변경이 있었고 이는 동일한 라이브러리에 포함되어 있다.<br>
 위의 코드는 파이참(PyCharm)에서 확인하였다.<br>
 <br>
 ![image](https://user-images.githubusercontent.com/41939828/52107530-0e37b000-263a-11e9-90ad-ab5200b0f3ea.png)
