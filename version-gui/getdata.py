@@ -4,7 +4,7 @@ import pandas as pd
 #from collections import OrderedDict
 import time
 
-driver = webdriver.Chrome('C:/Users/ehngmnj/Documents/chromedriver')
+driver = webdriver.Chrome('chromedriver의 주소')
 driver.get('http://www.smartchoice.or.kr/smc/smartreport/evaluatePage.do')
 
 
